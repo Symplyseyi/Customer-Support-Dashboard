@@ -1141,6 +1141,17 @@ select {
 
   /* First right side content */
 
+  .first-right-texts {
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: var(--space2);
+    flex-wrap: wrap;
+  }
+
   .first-right-texts h1 {
     font-size: var(--clampPryHeadingText);
     font-weight: var(--fontWeight-bold);
@@ -1153,8 +1164,9 @@ select {
   }
 
   .first-right-button {
-    width: 45%;
+    width: 35%;
     height: auto;
+    margin-bottom: -1.25rem;
   }
 
   .first-right-button button {
