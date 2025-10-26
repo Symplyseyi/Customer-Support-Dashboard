@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Support Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-section">
+      <!-- Sidebar Section -->
+
+      <section class="sidebar-section">
+        <div class="top-sidebar">
+          <div class="sidebar-heading">
+            <h2>Support Desk</h2>
+          </div>
+
+          <div class="sidebar-lists">
+            <div class="sidebar-icon-and-text first-icon-text">
+              <span class="material-symbols-outlined"> dashboard </span>
+              <p>Dashboard</p>
+            </div>
+
+            <div class="sidebar-icon-and-text">
+              <span class="material-symbols-outlined"> group </span>
+              <p>Agents</p>
+            </div>
+
+            <div class="sidebar-icon-and-text">
+              <span class="material-symbols-outlined"> activity_zone </span>
+              <p>Activities</p>
+            </div>
+
+            <div class="sidebar-icon-and-text">
+              <span class="material-symbols-outlined"> docs </span>
+              <p>Saved Replies</p>
+            </div>
+
+            <div class="sidebar-icon-and-text">
+              <span class="material-symbols-outlined"> automation </span>
+              <p>Workflow</p>
+            </div>
+
+            <div class="sidebar-icon-and-text">
+              <span class="material-symbols-outlined"> settings_alert </span>
+              <p>Settings</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-sidebar">
+          <div class="sidebar-text-container">
+            <p>Get All the features on</p>
+            <p>HireSupport Pro</p>
+          </div>
+
+          <div class="sidebar-button-container">
+            <button>Get Pro</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Side Container -->
+
+      <div class="menu-icon">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+
+      <section class="right-side-container">
+        <div class="first-right-container">
+          <div class="first-right-texts">
+            <h1>Hello Omarh,</h1>
+            <p>Here are the things happening in your support</p>
+          </div>
+
+          <div class="first-right-button">
+            <button>Upgrade to pro</button>
+          </div>
+        </div>
+
+        <div class="right-cards-container">
+          <div class="card">
+            <p>Open tickets</p>
+            <h1>20</h1>
+          </div>
+
+          <div class="card">
+            <p>Waiting reply</p>
+            <h1>25</h1>
+          </div>
+
+          <div class="card">
+            <p>Active tickets</p>
+            <h1>29</h1>
+          </div>
+
+          <div class="card">
+            <p>Resolve tickets</p>
+            <h1>5</h1>
+          </div>
+        </div>
+
+        <div class="third-right-container">
+          <div class="third-text-and-dropdown">
+            <label for="status">Status</label>
+            <select name="status" id="status" class="dropdown">
+              <option value="waiting">Waiting</option>
+              <option value="opened">Opened</option>
+              <option value="closed">Closed</option>
+              <option value="in-progress">In Progress</option>
+            </select>
+          </div>
+
+          <div class="third-text-and-dropdown">
+            <label for="status">Status</label>
+            <select name="status" id="status" class="dropdown">
+              <option value="waiting">Waiting</option>
+              <option value="opened">Opened</option>
+              <option value="closed">Closed</option>
+              <option value="in-progress">In Progress</option>
+            </select>
+          </div>
+
+          <div class="third-text-and-dropdown">
+            <label for="status">Piority</label>
+            <select name="status" id="status">
+              <option value="waiting">Low</option>
+              <option value="opened">Medium</option>
+              <option value="closed">High</option>
+              <option value="in-progress">Critical</option>
+            </select>
+          </div>
+
+          <div class="third-text-and-dropdown">
+            <label for="status">Product</label>
+            <select name="status" id="status">
+              <option value="waiting">Winter Jackets</option>
+              <option value="opened">Summer Collection</option>
+              <option value="closed">Accessories</option>
+              <option value="in-progress">Skincare Products</option>
+            </select>
+          </div>
+
+          <div class="third-text-and-dropdown">
+            <label for="status">Assignee</label>
+            <select name="status" id="status">
+              <option value="waiting">Helen Moore</option>
+              <option value="opened">Sarah Johnson</option>
+              <option value="closed">Shola Alabi</option>
+              <option value="in-progress">Mike Chen</option>
+            </select>
+          </div>
+
+          <div class="third-text-and-dropdown">
+            <label for="status">Creation date</label>
+            <select name="status" id="status">
+              <option value="waiting">23 Oct, 2025</option>
+              <option value="opened">Today</option>
+              <option value="closed">This week</option>
+              <option value="in-progress">This month</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="last-right-container">
+          <div class="last-right-card">
+            <div class="title">
+              <p>TITLE</p>
+            </div>
+
+            <div class="other-text">
+              <p>STATUS</p>
+              <p>PIORITY</p>
+              <p>ASSIGNEE</p>
+              <p>UPDATED</p>
+              <p>CREATED AT</p>
+            </div>
+          </div>
+
+          <div class="last-right-card">
+            <div class="image-and-text-container">
+              <div class="image-container">
+                <img
+                  src="./Images/avatar.svg"
+                  alt="Image of  a female avatar"
+                />
+              </div>
+
+              <div class="texts-container">
+                <div class="heading-text">
+                  <p>Product not received</p>
+                  <p>#233</p>
+                </div>
+
+                <div class="sub-heading">
+                  <p>Hello, I ordered but not receive...</p>
+                </div>
+
+                <div class="small-text">
+                  <p>Michael Vaughn</p>
+                  <p>Winter Jackets</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="other-text sub-text">
+              <div class="icon-and-text second-sub-text">
+                <span class="material-symbols-outlined"> schedule </span>
+                <p>Awaiting</p>
+              </div>
+
+              <div class="icon-and-text second-sub-text">
+                <p>.</p>
+                <p>Medium</p>
+              </div>
+
+              <div class="icon-and-text second-sub-text">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of an assignee"
+                  width="50"
+                />
+                <p>Helen</p>
+              </div>
+
+              <div class="icon-and-text second-sub-text">
+                <p>3hrs ago</p>
+              </div>
+
+              <div class="icon-and-text second-sub-text">
+                <span class="material-symbols-outlined"> enterprise </span>
+                <p>2 days ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="last-right-card">
+            <div class="image-and-text-container">
+              <div class="image-container">
+                <img
+                  src="./Images/avatar-2.svg"
+                  alt="Image of  a female avatar"
+                />
+              </div>
+
+              <div class="texts-container">
+                <div class="heading-text">
+                  <p>Faulty product</p>
+                  <p>#232</p>
+                </div>
+
+                <div class="sub-heading">
+                  <p>Hello, I ordered but not receive...</p>
+                </div>
+
+                <div class="small-text">
+                  <p>Robert Fox</p>
+                  <p>Bb Brown</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="other-text sub-text">
+              <div class="icon-and-text third-sub-text">
+                <span class="material-symbols-outlined"> check_circle </span>
+                <p>Closed</p>
+              </div>
+
+              <div class="icon-and-text third-sub-text">
+                <p>.</p>
+                <p>Low</p>
+              </div>
+
+              <div class="icon-and-text third-sub-text">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of an assignee"
+                  width="50"
+                />
+                <p>Helen</p>
+              </div>
+
+              <div class="icon-and-text third-sub-text">
+                <p>5hrs ago</p>
+              </div>
+
+              <div class="icon-and-text third-sub-text">
+                <span class="material-symbols-outlined"> enterprise </span>
+                <p>2 days ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="last-right-card">
+            <div class="image-and-text-container">
+              <div class="image-container">
+                <img
+                  src="./Images/avatar-3.jpg"
+                  alt="Image of  a female avatar"
+                />
+              </div>
+
+              <div class="texts-container">
+                <div class="heading-text">
+                  <p>Hey, I need emergency</p>
+                  <p>#228</p>
+                </div>
+
+                <div class="sub-heading">
+                  <p>Hello, I ordered but not receive...</p>
+                </div>
+
+                <div class="small-text">
+                  <p>Ollie Papa</p>
+                  <p>Wave Donna</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="other-text sub-text">
+              <div class="icon-and-text fourth-sub-text">
+                <span class="material-symbols-outlined">
+                  progress_activity
+                </span>
+                <p>In Progress</p>
+              </div>
+
+              <div class="icon-and-text fourth-sub-text">
+                <p>.</p>
+                <p>High</p>
+              </div>
+
+              <div class="icon-and-text fourth-sub-text">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of an assignee"
+                  width="50"
+                />
+                <p>Helen</p>
+              </div>
+
+              <div class="icon-and-text fourth-sub-text">
+                <p>8hrs ago</p>
+              </div>
+
+              <div class="icon-and-text fourth-sub-text">
+                <span class="material-symbols-outlined"> enterprise </span>
+                <p>20 Feb, 25</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="last-right-card">
+            <div class="image-and-text-container">
+              <div class="image-container">
+                <img
+                  src="./Images/avatar-4.svg"
+                  alt="Image of  a female avatar"
+                />
+              </div>
+
+              <div class="texts-container">
+                <div class="heading-text">
+                  <p>My product is faulty</p>
+                  <p>#231</p>
+                </div>
+
+                <div class="sub-heading">
+                  <p>Hello, I ordered but not receive...</p>
+                </div>
+
+                <div class="small-text">
+                  <p>Sarah Wilson</p>
+                  <p>Product Team</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="other-text sub-text">
+              <div class="icon-and-text fifth-sub-text">
+                <span class="material-symbols-outlined"> schedule </span>
+                <p>Open</p>
+              </div>
+
+              <div class="icon-and-text fifth-sub-text">
+                <p>.</p>
+                <p>Critical</p>
+              </div>
+
+              <div class="icon-and-text fifth-sub-text">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of an assignee"
+                  width="50"
+                />
+                <p>Helen</p>
+              </div>
+
+              <div class="icon-and-text fifth-sub-text">
+                <p>1d ago</p>
+              </div>
+
+              <div class="icon-and-text fifth-sub-text">
+                <span class="material-symbols-outlined"> enterprise </span>
+                <p>24 Oct, 25</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mobile-last-right-container">
+          <div class="mobile-right-card">
+            <div class="avatar-and-heading">
+              <img src="./Images/avatar.svg" alt="Profile image" />
+              <div class="code-and-heading">
+                <div class="icon-and-code">
+                  <span class="material-symbols-outlined">
+                    mark_chat_read
+                  </span>
+                  <p>233</p>
+                </div>
+                <p>Product not received</p>
+                <p>Hello, I ordered but not receive...</p>
+              </div>
+            </div>
+
+            <div class="piority-and-product">
+              <div class="first-piority">
+                <span class="material-symbols-outlined"> schedule </span>
+                <p>Awaiting</p>
+              </div>
+
+              <div class="first-product">
+                <p>.</p>
+                <p>Medium</p>
+              </div>
+            </div>
+
+            <div class="assignee-name-and-date-container">
+              <div class="assignee">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of the assignee"
+                />
+                <p>Helen</p>
+              </div>
+              <p>30h ago</p>
+            </div>
+          </div>
+
+          <div class="mobile-right-card">
+            <div class="avatar-and-heading">
+              <img src="./Images/avatar-2.svg" alt="Profile image" />
+              <div class="code-and-heading">
+                <div class="icon-and-code">
+                  <span class="material-symbols-outlined">
+                    mark_chat_read
+                  </span>
+                  <p>233</p>
+                </div>
+                <p>Product not received</p>
+                <p>Hello, I ordered but not receive...</p>
+              </div>
+            </div>
+
+            <div class="piority-and-product">
+              <div class="second-piority">
+                <span class="material-symbols-outlined"> check_circle </span>
+                <p>Closed</p>
+              </div>
+
+              <div class="second-product">
+                <p>.</p>
+                <p>Low</p>
+              </div>
+            </div>
+
+            <div class="assignee-name-and-date-container">
+              <div class="assignee">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of the assignee"
+                />
+                <p>Helen</p>
+              </div>
+              <p>8h ago</p>
+            </div>
+          </div>
+
+          <div class="mobile-right-card">
+            <div class="avatar-and-heading">
+              <img src="./Images/avatar-3.svg" alt="Profile image" />
+              <div class="code-and-heading">
+                <div class="icon-and-code">
+                  <span class="material-symbols-outlined">
+                    mark_chat_read
+                  </span>
+                  <p>233</p>
+                </div>
+                <p>Product not received</p>
+                <p>Hello, I ordered but not receive...</p>
+              </div>
+            </div>
+
+            <div class="piority-and-product">
+              <div class="third-piority">
+                <span class="material-symbols-outlined">progress_activity</span>
+                <p>In progress</p>
+              </div>
+
+              <div class="third-product">
+                <p>.</p>
+                <p>High</p>
+              </div>
+            </div>
+
+            <div class="assignee-name-and-date-container">
+              <div class="assignee">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of the assignee"
+                />
+                <p>Helen</p>
+              </div>
+              <p>5h ago</p>
+            </div>
+          </div>
+
+          <div class="mobile-right-card">
+            <div class="avatar-and-heading">
+              <img src="./Images/avatar-4.svg" alt="Profile image" />
+              <div class="code-and-heading">
+                <div class="icon-and-code">
+                  <span class="material-symbols-outlined">
+                    mark_chat_read
+                  </span>
+                  <p>233</p>
+                </div>
+                <p>Product not received</p>
+                <p>Hello, I ordered but not receive...</p>
+              </div>
+            </div>
+
+            <div class="piority-and-product">
+              <div class="fourth-piority">
+                <span class="material-symbols-outlined"> schedule </span>
+                <p>Open</p>
+              </div>
+
+              <div class="fourth-product">
+                <p>.</p>
+                <p>Critical</p>
+              </div>
+            </div>
+
+            <div class="assignee-name-and-date-container">
+              <div class="assignee">
+                <img
+                  src="./Images/avatar-asignee.svg"
+                  alt="Image of the assignee"
+                />
+                <p>Helen</p>
+              </div>
+              <p>1d ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
