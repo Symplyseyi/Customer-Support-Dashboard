@@ -171,12 +171,12 @@
   color: var(--secText-Color);
 }
 
-.sidebar-icon-and-text p {
+.sidebar-icon-and-text a {
   font-size: var(--fontSize-medium);
   color: var(--secText-Color);
 }
 
-.first-icon-text p,
+.first-icon-text a,
 .first-icon-text span {
   color: var(--pryText-Color);
 }
@@ -1164,14 +1164,14 @@ select {
   }
 
   .first-right-button {
-    width: 35%;
+    width: 34%;
     height: auto;
     margin-bottom: -1.25rem;
   }
 
   .first-right-button button {
     width: 100%;
-    padding: var(--space3) var(--space1);
+    padding: var(--space3) 0;
     background-color: var(--pryColor);
     border: none;
     outline: none;
